@@ -31,7 +31,7 @@ const MeetingCard = ({
   const { toast } = useToast();
 
   return (
-    <section className="flex min-h-[258px] min-w-[500px] w-full flex-col justify-between rounded-[14px] bg-red-2 px-5 py-8 xl:max-w-[568px] text-white">
+    <section className="flex min-h-[258px]  w-full flex-col justify-between rounded-[14px] bg-red-2 px-5 py-8  text-white ">
       <article className="flex flex-col gap-5">
         <Image src={icon} alt="upcoming" width={28} height={28} />
         <div className="flex justify-between">
@@ -59,7 +59,7 @@ const MeetingCard = ({
           </div>
         </div>
         {!isPreviousMeeting && (
-          <div className="flex gap-2">
+          <div className="flex gap-2 max-sm:flex-col max-sm:w-full mt-4">
             <Button onClick={handleClick} className="rounded bg-red-1 px-6 flex justify-center items-center">
               {buttonIcon1 && (
                 <Image src={buttonIcon1} alt="feature" width={20} height={20} />

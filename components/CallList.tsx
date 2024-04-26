@@ -67,7 +67,7 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
   if (isLoading) return <Loader />;
 
   return (
-    <div className="grid grid-cols-1 gap-5 lg:grid-cols-2  py-4">
+    <div className="grid grid-cols-1 gap-5 xl:grid-cols-2  py-4">
       {calls && calls.length > 0 ? (
         calls.map((meeting: Call | CallRecording) => (
           <MeetingCard

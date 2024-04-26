@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# LOOM
 
-First, run the development server:
+Introducing Loom: Your Ultimate Video Conferencing Solution! Powered by Next.js, my app revolutionizes virtual meetings with seamless connectivity and crystal-clear audio-video quality. Experience fluid, intuitive UI/UX for effortless navigation. From team collaborations to client meetings, Loom ensures reliability and security. Join the future of remote communication with Loom, where every connection is just a click away.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Login/Signup
+- Start an instant meeting
+- Join an exhisting meeting
+- Schedule a meeting
+- Record your meetings
+- Start a personal meeting room
+- Secured by clerk auth
+- Powered by Stream
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Client:** NextJS, TypeScript, TailwindCSS
 
-## Learn More
+**Server:** NextJS, TypeScript
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Login/Signup
 
-## Deploy on Vercel
+### Home Page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Upcoming Page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Previous Page
+
+### Recordings Page
+
+### Personal Room Page
+
+## Hosted at
+https://loom-beryl.vercel.app/

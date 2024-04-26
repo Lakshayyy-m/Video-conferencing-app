@@ -6,19 +6,25 @@ import {
 } from "@stream-io/video-react-sdk";
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
+import { useToast } from "./ui/use-toast";
 
 const MeetingSetup = ({
   setIsSetupComplete,
 }: {
   setIsSetupComplete: (value: boolean) => void;
 }) => {
+  const router = useRouter();
+  const { toast } = useToast();
   const [isMicCamToggledOn, setIsMicCamToggledOn] = useState(false);
 
   const call = useCall();
 
   if (!call) {
-    throw Error("useCall must be used in StreamCall Component");
+    throw new Error("eorreorewofnfd");
   }
+
+
 
   useEffect(() => {
     if (isMicCamToggledOn) {

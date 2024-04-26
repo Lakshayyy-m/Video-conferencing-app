@@ -3,7 +3,7 @@ import { Triangle } from "react-loader-spinner";
 
 const Loader = () => {
   return (
-    <div className="flex-center h-screen w-full">
+    <div className="flex-center h-screen w-full ">
       <Triangle
         visible={true}
         height="80"

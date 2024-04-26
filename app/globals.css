@@ -53,6 +53,11 @@
   -webkit-backdrop-filter: blur(8px);
 }
 
+.react-datepicker__day--selected,
+.react-datepicker__time-list-item--selected {
+  background-color: #ba2323 !important;
+}
+
 /* ==== clerk class override ===== */
 
 .cl-userButtonPopoverActionButtonIcon {

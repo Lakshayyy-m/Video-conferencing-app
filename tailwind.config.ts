@@ -25,6 +25,7 @@ const config = {
         },
         red: {
           1: "#ba2323",
+          2:"#200000"
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
